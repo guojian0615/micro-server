@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api-geteway-zuul" />
+        <module name="course-dubbo-service" />
+        <module name="course-dubbo-service-api" />
+        <module name="course-edge-service" />
+        <module name="user-edge-service" />
+        <module name="user-sso-client" />
+        <module name="user-thrift-service" />
+        <module name="user-thrift-service-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="course-dobbo-service" target="1.8" />
+      <module name="user-common-util" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
